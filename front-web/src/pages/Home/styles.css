@@ -2,23 +2,25 @@
   display: flex;
   justify-content: center;
   height: 100vh;
-  margin-top: 150px;
+  margin-top: 125px;
   zoom: 72%;
 }
 
 .home-text {
   margin-right: 70px;
-  width: 490px;
+  width: 500px;
 }
 
 .home-text-title {
   color: var(--color-title);
+  font-family: 'Press Start 2P', cursive;
   font-size: 55px;
+  line-height: 1.1;
 }
 
 .home-text-subtitle {
   color: var(--color-primary);
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
 }
 
@@ -32,8 +34,8 @@
   background-color: var(--color-whitegray);
   border-radius: 10px 0px 0px 10px;
   color: var(--color-black);
-  font-weight: bold;
   font-size: 18px;
+  font-weight: bold;
   padding: 20px 45px;
 }
 
