@@ -1,24 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
 
 :root {
-  --color-turquoise: #00D4FF;
-  --color-coral: #ed7947;
-  --color-dimgray: #4c5d67;
-  --color-darkslategray: #37474f;
-  --color-black: #0b1f34;
+  --color-background: #0e153a;
+  --color-background-header: #3d5af1;
+  --color-whitegray: #f0f0f0;
+  --color-primary: #00D4FF;
+  --color-secundary: #FF304F;
+  --color-title: #FFFFFF;
+  --color-logotext: #071E3D;
+}
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+::selection {
+  background-color: #caf0f8;
 }
 
 body, html {
-  padding: 0;
   margin: 0;
-}
-
-* {
-  font-family: 'Play', sans-serif;
+  padding: 0;
 }
 
 body {
-  background: var(--color-black);
+  background: var(--color-background);
+  width: 100vw;
 }
 
 a {
@@ -26,11 +32,16 @@ a {
 }
 
 .text-primary {
-  color: var(--color-turquoise);
+  color: var(--color-primary);
 }
 
 .text-secondary {
-  color: var(--color-coral);
+  color: var(--color-secundary);
+}
+
+.container {
+  max-height: 100vh;
+  max-width: 100vw;
 }
 
 button {
