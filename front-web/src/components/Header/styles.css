@@ -1,22 +1,23 @@
 .main-header {
-  height: 30px;
-  padding: 20px 40px;
+  background-color: var(--color-background-header);
   display: flex;
-  background-color: var(--color-darkslategray);
+  height: 30px;
+  padding: 14px 40px;
 }
 
 .logo-text {
-  font-weight: bold;
-  font-size: 24px;
-  margin-left: 15px;
+  font-size: 22px;
+  margin-left: 16px;
 }
 
 .logo-text-1 {
-  color: var(--color-coral);
+  color: var(--color-logotext);
+  font-weight: 900;
+  margin-right: 6px;
 }
 
 .logo-text-2 {
-  color: #FFF;
+  color: var(--color-title);
 }
 
 @media (max-width: 850px) {

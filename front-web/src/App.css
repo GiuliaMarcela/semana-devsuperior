@@ -1,24 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Press+Start+2P&display=swap');
 
 :root {
-  --color-turquoise: #00D4FF;
-  --color-coral: #ed7947;
-  --color-dimgray: #4c5d67;
-  --color-darkslategray: #37474f;
-  --color-black: #0b1f34;
+  --color-background: #0e153a;
+  --color-background-header: #3d5af1;
+  --color-whitegray: #f0f0f0;
+  --color-primary: #00D4FF;
+  --color-secundary: #FF304F;
+  --color-title: #FFFFFF;
+  --color-logotext: #071E3D;
+}
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+::selection {
+  background-color: #caf0f8;
 }
 
 body, html {
-  padding: 0;
   margin: 0;
-}
-
-* {
-  font-family: 'Play', sans-serif;
+  padding: 0;
 }
 
 body {
-  background: var(--color-black);
+  background: var(--color-background);
+  width: 100vw;
 }
 
 a {
@@ -26,11 +32,13 @@ a {
 }
 
 .text-primary {
-  color: var(--color-turquoise);
+  color: var(--color-secundary);
+  font-weight: 700;
 }
 
 .text-secondary {
-  color: var(--color-coral);
+  color: var(--color-primary);
+  font-weight: 700;
 }
 
 button {
