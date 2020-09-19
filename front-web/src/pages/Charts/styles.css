@@ -3,10 +3,10 @@
 }
 
 .top-related {
-  background-color: #1B1D28;
-  border-radius: 10px;
+  background-color: #324e7b;
+  border-radius: 5px;
   flex: 1;
-  padding-top: 30px;
+  padding-top: 15px;
   padding-left: 70px;
 }
 
@@ -16,6 +16,7 @@
 }
 
 .games-container {
+  align-items: center;
   display: flex;
   justify-content: center;
 }
@@ -52,22 +53,15 @@
 }
 
 .chart-title {
-  font-size: 28px;
+  font-size: 24px;
 }
 
+.gender-chart,
 .platform-chart {  
-  background-color: #4E4961;
-  border-radius: 10px;
-  height: 373px;
+  background-color: #2d4059;
+  border-radius: 6px;
+  height: 363px;
   margin-bottom: 25px;  
-  padding-top: 15px;
-  padding-left: 25px;
-}
-
-.gender-chart {
-  background-color: #4E4961;
-  border-radius: 10px;
-  height: 373px;  
   padding-top: 15px;
   padding-left: 25px;
 }

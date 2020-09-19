@@ -1,7 +1,6 @@
 .main-header {
   background-color: var(--color-background-header);
   display: flex;
-  height: 30px;
   padding: 14px 40px;
 }
 

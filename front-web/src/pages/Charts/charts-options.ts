@@ -3,7 +3,7 @@ export const pieOptions = {
     background: "transparent",
     foreColor: "red",
   },
-  colors: ["#FF304F", "#00D4FF", "#FFFFFF", "#ffd6a5"],
+  colors: ["#FF304F", "#00D4FF", "#17b978", "#ffd6a5"],
   legend: {
     show: false,
   },
@@ -12,11 +12,11 @@ export const pieOptions = {
   },
   dataLabels: {
     enabled: true,
-    offsetX: "100px",
-    offsetY: "100px",
+    offsetX: "80px",
+    offsetY: "80px",
     style: {
       colors: ["#a8dadc", "#ed7947", "#00D4FF", "#ffd6a5"],
-      fontSize: "20px",
+      fontSize: "18px",
       fontFamily: "Play, sans-serif",
       fontWeight: 700,
     },

@@ -1,9 +1,8 @@
 .home-container {
   display: flex;
   justify-content: center;
-  height: 100vh;
   margin-top: 125px;
-  zoom: 72%;
+  zoom: 80%;
 }
 
 .home-text {
@@ -26,8 +25,7 @@
 .home-actions {
   display: flex;
   height: 70px;
-  margin-top: 150px;
-  width: 412px;
+  margin-top: 125px;
 }
 
 .home-btn {

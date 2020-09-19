@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 import './styles.css';
 
 const Home = () => (
-  <div className="home-container">
+  <div className="home-container"> 
     <div className="home-text">
       <h1 className="home-text-title">
         Quais jogos a galera gosta mais?
