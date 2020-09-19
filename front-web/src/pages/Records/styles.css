@@ -18,7 +18,7 @@
 .records-table thead {
   background-color: var(--color-background-header);
   border-radius: 10px;
-  color: #0E1B28;
+  color: #fff;
   text-align: left;
 }
 
@@ -41,6 +41,7 @@
 
 .records-table tbody tr {
   color: #FFF;
+  font-family: 'Play', sans-serif;
   height: 45px;
 }
 
