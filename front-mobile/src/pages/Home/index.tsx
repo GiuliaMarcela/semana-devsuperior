@@ -8,17 +8,22 @@ import {
   Image,
   StyleSheet,
   Text,
-  TextBase,
   View
 } from 'react-native';
 
+import Header from '../../components/Header';
+import { NavigationContainer, useNavigation } from '@react-navigation/native';
+
 const Home = () => {
+  const navigation = useNavigation();
+
   const handleOnPress = () => {
-    Alert.alert('você clicou no botão!')
+    navigation.navigate('CreateRecord');
   }
 
   return (
     <>
+      <Header />
       <View style={styles.container}>
         <Image source={require('../../assets/gamer.png')} style={styles.gamerImage} />
         <Text style={styles.title}>Vote agora!</Text>
@@ -43,7 +48,7 @@ const Home = () => {
 const styles = StyleSheet.create({
   container: {
     alignItems: 'center',
-    marginTop: '30%',
+    marginTop: '25%',
   },
   gamerImage: {
     height: 288,
@@ -80,8 +85,9 @@ const styles = StyleSheet.create({
   },
   buttonText: {
     color: '#0B1F34',
-    fontFamily: "Play_400Regular",
+    fontFamily: "Play_700Bold",
     fontSize: 18,
+    fontWeight: '700',
     paddingTop: 15,
     paddingBottom: 15,
     paddingLeft: 50,
